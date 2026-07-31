@@ -11,7 +11,7 @@ The executable accepts two arguments: the input directory, which contains the `.
 
 In this example, the program reads all `.pgm` images from the `data` directory, processes them, and saves the resulting images in the newly created `processed_data` directory.
 
-The processed images has also been converted in to viewable `.png` format and stored in processed_data_png folder
+The processed images have also been converted into the viewable .png format and stored in the processed_data_png/ directory.
 
 ## Code Organization
 ```bin/```
