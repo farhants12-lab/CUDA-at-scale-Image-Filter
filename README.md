@@ -11,6 +11,8 @@ The executable accepts two arguments: the input directory, which contains the `.
 
 In this example, the program reads all `.pgm` images from the `data` directory, processes them, and saves the resulting images in the newly created `processed_data` directory.
 
+The processed images has also been converted in to viewable `.png` format and stored in processed_data_png folder
+
 ## Code Organization
 ```bin/```
 — Contains the executable produced when the project is built using the make build command.
