@@ -2,7 +2,7 @@
 NVCC = nvcc
 
 # Include directories
-INCLUDES = -I../Common -I../Common/UtilNPP
+INCLUDES = -Ilib/Common -Ilib/Common/UtilNPP
 
 # Libraries
 LIBS = -lnppc -lnppif -lnppisu -lfreeimage
