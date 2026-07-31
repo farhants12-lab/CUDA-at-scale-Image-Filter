@@ -31,6 +31,6 @@ This file contains the description of the project so that anyone cloning or deci
 ```INSTALL```
 This file contains set of instructions for installing the code so that it can be executed.
 
-```Makefile or CMAkeLists.txt or build.sh```
+```Makefile```
 This a scripts for building the project's code in an automatic fashion.
 
