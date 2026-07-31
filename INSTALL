@@ -1,0 +1,52 @@
+The application requires an NVIDIA GPU with CUDA support.
+
+**Linux Installation**
+
+1. Requirements
+
+The following software is required:
+
+NVIDIA GPU with CUDA support
+NVIDIA GPU driver
+NVIDIA CUDA Toolkit
+nvcc CUDA compiler
+GNU Make
+A C++ compiler supported by the installed CUDA Toolkit
+FreeImage development library
+
+The NVIDIA driver and CUDA Toolkit should be installed before compiling the program.
+
+Check that the NVIDIA GPU is available:
+
+nvidia-smi
+
+Check that the CUDA compiler is available:
+
+nvcc --version
+
+Check that GNU Make is available:
+
+make --version
+
+2. Install FreeImage
+
+On Ubuntu/Debian-based systems, install the FreeImage development package:
+
+sudo apt update
+sudo apt install libfreeimage-dev
+
+3. Clone the repository
+
+Clone the repository and enter the project directory:
+
+git clone https://github.com/farhants12-lab/CUDA-at-scale-Image-Filter.git
+cd CUDA-at-scale-Image-Filter
+
+4. Compile the program
+
+compile the code with the 'make build' command 
+
+Ensure the processed_data_pgm directory if empty
+
+run the programm with command ./bin/filter.exe --input data --output processed_data_pgm
+
