@@ -13,24 +13,24 @@ In this example, the program reads all `.pgm` images from the `data` directory, 
 
 ## Code Organization
 ```bin/```
-This folder contains the executable code that is built with `make build` command. 
+— Contains the executable produced when the project is built using the make build command.
 
 ```data/```
-This folder contains all the input images in the `.pgm`format. This forder is provided to the `--input` flag in the argument. 
+— Contains the input images in `.pgm` format. This directory is provided to the `--input` argument when running the program.
 
 ```lib/```
-NVIDIA CUDA Sample helper headers are included in this folder. These are not the standared C++ headers and the CUDA Toolkit headers.
+— Contains NVIDIA CUDA sample helper headers and NPP utility headers required by the project. These are separate from the standard C++ and CUDA Toolkit headers.
 
 
 ```src/```
-This folder contains the source code.
+— Contains the project's source code.
 
 ```README.md```
-This file contains the description of the project so that anyone cloning or deciding if they want to clone this repository can understand its purpose to help with their decision.
+— Provides an overview and description of the project, including its purpose, functionality, and how it can be used.
 
 ```INSTALL```
-This file contains set of instructions for installing the code so that it can be executed.
+— Contains instructions for installing, building, and running the project.
 
 ```Makefile```
-This a scripts for building the project's code in an automatic fashion.
+— Provides commands for automatically building and cleaning the project.
 
