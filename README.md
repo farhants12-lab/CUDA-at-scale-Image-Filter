@@ -29,7 +29,7 @@ This folder contains the source code.
 This file contains the description of the project so that anyone cloning or deciding if they want to clone this repository can understand its purpose to help with their decision.
 
 ```INSTALL```
-This file should hold the human-readable set of instructions for installing the code so that it can be executed. If possible it should be organized around different operating systems, so that it can be done by as many people as possible with different constraints.
+This file contains set of instructions for installing the code so that it can be executed.
 
 ```Makefile or CMAkeLists.txt or build.sh```
 This a scripts for building the project's code in an automatic fashion.
