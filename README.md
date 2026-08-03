@@ -38,7 +38,7 @@ The processed images have also been converted into the viewable `.png` format an
 
 The application requires an NVIDIA GPU with CUDA support.
 
-## Linux Installation**
+## Linux Installation
 
 **1. Requirements**
 
