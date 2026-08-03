@@ -78,6 +78,7 @@ sudo apt install libfreeimage-dev
 Clone the repository and enter the project directory:
 
 git clone https://github.com/farhants12-lab/CUDA-at-scale-Image-Filter.git
+
 cd CUDA-at-scale-Image-Filter
 
 **4. Compile the program**
